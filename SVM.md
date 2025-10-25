@@ -5,4 +5,5 @@
 
 <img width="630" height="353" alt="image" src="https://github.com/user-attachments/assets/1feec67e-3876-4b5c-88d7-f4eb2041d3b8" /> <br>
 ## 1.Linear SVM <br>
+將中間斜線設為ax+by+c=0 轉換成矩陣表示<br>
 <img width="371" height="162" alt="image" src="https://github.com/user-attachments/assets/66c7e3db-9e39-4a85-adb6-a5169d87d69b" />
