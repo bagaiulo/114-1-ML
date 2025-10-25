@@ -23,7 +23,7 @@ soft-margin SVM (軟邊界):現實資料多半不能完美線性分，會有噪�
 也因此大多數訓練過程都選用軟邊界對超過的範圍做逞罰。  
 
 
-##Soft-margin SVM（允許誤差/離群點  
+## 2.Soft-margin SVM（允許誤差/離群點)
 加入鬆弛變數與懲罰係數  
 <img width="406" height="101" alt="image" src="https://github.com/user-attachments/assets/0b7c36e5-facc-4bac-af61-5d37f1293798" />  
 PS:  
