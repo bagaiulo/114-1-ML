@@ -7,4 +7,7 @@
 ## 1.Linear SVM <br>
 將中間斜線設為ax+by+c=0 轉換成矩陣表示<br>
 <img width="371" height="162" alt="image" src="https://github.com/user-attachments/assets/66c7e3db-9e39-4a85-adb6-a5169d87d69b" /> <br>
-求出點到最近圈圈線條的最短距離即是margin
+求出點到最近圈圈線條的最短距離即是margin，利用最小化法求出<br>
+<img width="504" height="116" alt="image" src="https://github.com/user-attachments/assets/f64c7d3d-a52f-49e4-9ac8-a57d37d6db32" /><br>
+
+
