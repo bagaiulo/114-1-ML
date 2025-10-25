@@ -34,7 +34,7 @@ PS:
 <img width="726" height="102" alt="image" src="https://github.com/user-attachments/assets/46f41db3-b72b-4979-92d9-1b2418d7eea5" />  
 如果我們要得到參數的最佳解，則直接將Lagrangian函式偏微分該參數  
 <img width="543" height="271" alt="image" src="https://github.com/user-attachments/assets/e6ba4180-c09f-4c09-a2ef-5c6ee27c4a52" />  
-我們將最佳化問題做個轉換
+我們將最佳化問題做個轉換  
 <img width="375" height="290" alt="image" src="https://github.com/user-attachments/assets/47f41419-39f5-4670-9a38-ed2ca8a3236e" />  
 二次式(Quadratic Programming)的精神是要將函數呈現成下式:  
 <img width="273" height="149" alt="image" src="https://github.com/user-attachments/assets/c05a0fbb-4fcc-4fad-bf1e-df74fa06ceb9" />
