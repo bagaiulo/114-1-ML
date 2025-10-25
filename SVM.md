@@ -8,6 +8,7 @@
 將中間斜線設為ax+by+c=0 轉換成矩陣表示<br>
 <img width="371" height="162" alt="image" src="https://github.com/user-attachments/assets/66c7e3db-9e39-4a85-adb6-a5169d87d69b" /> <br>
 求出點到最近圈圈線條的最短距離即是margin，對兩邊拉出一條邊界線假設是<br>
+<img width="466" height="335" alt="image" src="https://github.com/user-attachments/assets/05c06a3a-1622-45da-9523-53294003a7e3" /> <br>
 
 
 
