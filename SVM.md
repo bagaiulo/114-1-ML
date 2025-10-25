@@ -5,4 +5,8 @@
 
 <img width="630" height="353" alt="image" src="https://github.com/user-attachments/assets/1feec67e-3876-4b5c-88d7-f4eb2041d3b8" /> <br>
 ## 1.Linear SVM <br>
-價
+假設v允練資料為  
+<img width="511" height="83" alt="image" src="https://github.com/user-attachments/assets/28531b69-f57b-494c-8b67-5c02f7c9c107" />  
+不考慮資料混在一起的情況下  
+<img width="723" height="119" alt="image" src="https://github.com/user-attachments/assets/03237783-1516-4421-b94e-149cd73f3a21" />  
+
