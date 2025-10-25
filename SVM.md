@@ -13,7 +13,7 @@
 <img width="723" height="119" alt="image" src="https://github.com/user-attachments/assets/03237783-1516-4421-b94e-149cd73f3a21" />  
 所以SVM在找Optimal hyperplane就是希望區隔兩類之間的邊界(2/|w|)可以越大越好。轉換成數學公式如下  
 <img width="434" height="117" alt="image" src="https://github.com/user-attachments/assets/c836256a-13c2-4684-8536-4ea31759f68a" />  
-##hard-margin SVM跟soft-margin SVM  
+### hard-margin SVM跟soft-margin SVM  
 hard-margin SVM(硬邊界):通常資料在特徵空間中 完全可線性分，讓兩類到決策面的間距（margin）最大。  
 <img width="322" height="46" alt="image" src="https://github.com/user-attachments/assets/364190df-3afc-45c3-a288-a2beefee3721" />  
 特性：不允許任何點在邊界內或被分錯；對離群點極度敏感  
