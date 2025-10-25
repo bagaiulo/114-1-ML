@@ -29,7 +29,28 @@ soft-margin SVM (軟邊界):現實資料多半不能完美線性分，會有噪�
 PS:  
 <img width="641" height="53" alt="image" src="https://github.com/user-attachments/assets/796b3147-71b6-4406-9c1d-a6c7105bc664" />
 
+因為未知參數在限制式內，無法直接去解此最佳化問題，因此在解「 有條件的最佳化問題」時，有時需要把原本的問題轉換成對偶問題(Dual Problem)後，會比較好解。  
+用Lagrangian dual function (因為有兩種限制式所以Lagrangian parameters為αi>=0和βi>=0)將原最佳化問題轉換成Lagrangian函式:  
+<img width="726" height="102" alt="image" src="https://github.com/user-attachments/assets/46f41db3-b72b-4979-92d9-1b2418d7eea5" />  
+如果我們要得到參數的最佳解，則直接將Lagrangian函式偏微分該參數  
+<img width="543" height="271" alt="image" src="https://github.com/user-attachments/assets/e6ba4180-c09f-4c09-a2ef-5c6ee27c4a52" />  
+我們將最佳化問題做個轉換
+<img width="375" height="290" alt="image" src="https://github.com/user-attachments/assets/47f41419-39f5-4670-9a38-ed2ca8a3236e" />  
+二次式(Quadratic Programming)的精神是要將函數呈現成下式:  
+<img width="273" height="149" alt="image" src="https://github.com/user-attachments/assets/c05a0fbb-4fcc-4fad-bf1e-df74fa06ceb9" />
+​H是Hessian matrix，為對稱矩陣  
 
- 
-	​
+根據不同的參數特性，可以得到對問題不同的結論  
+
+· 如果H是半正定矩陣，那麼f(x)是一個凸函數。  
+
+· 如果H是正定矩陣，那麼全局最小值就是唯一的。  
+
+· 如果H=0，二次規劃問題就變成線性規劃問題。  
+
+如果有至少一個向量x滿足約束而且f(x)在可行域有下界，二次規劃問題就有一個全局最小值x。  
+
+所以SVM最後其實只是一個二次式求解問題，整理後如下列方程式:  
+<img width="715" height="408" alt="image" src="https://github.com/user-attachments/assets/914b2d57-2846-423d-960a-a815f5423ac4" />
+
 
