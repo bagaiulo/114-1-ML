@@ -1,4 +1,0 @@
-＃神經網路(多層感知機 Multilayer perceptron, MLP)
-##MLP推導
-多層感知機是一種前向傳遞類神經網路，至少包含三層結構(輸入層、隱藏層和輸出層)，並且利用到「倒傳遞」的技術達到學習(model learning)的監督式學習，以上是傳統的定義。現在深度學習的發展，其實MLP是深度神經網路(deep neural network, DNN)的一種special case，概念基本上一樣   
- 
