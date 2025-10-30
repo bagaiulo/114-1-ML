@@ -1,4 +1,4 @@
-# 114-1-ML SVM訓練過程
+# 114-1-ML SVM推導
 
 # 核心邏輯: <br>
 找到一個決策邊(decisiion boundary)讓兩類之間的邊界(margins)最大化，使其可以完美區分開來<br>
@@ -13,7 +13,7 @@
 <img width="723" height="119" alt="image" src="https://github.com/user-attachments/assets/03237783-1516-4421-b94e-149cd73f3a21" />  
 所以SVM在找Optimal hyperplane就是希望區隔兩類之間的邊界(2/|w|)可以越大越好。轉換成數學公式如下  
 <img width="434" height="117" alt="image" src="https://github.com/user-attachments/assets/c836256a-13c2-4684-8536-4ea31759f68a" />  
-### hard-margin SVM跟soft-margin SVM  
+## 2.hard-margin SVM跟soft-margin SVM  
 hard-margin SVM(硬邊界):通常資料在特徵空間中 完全可線性分，讓兩類到決策面的間距（margin）最大。  
 <img width="322" height="46" alt="image" src="https://github.com/user-attachments/assets/364190df-3afc-45c3-a288-a2beefee3721" />  
 特性：不允許任何點在邊界內或被分錯；對離群點極度敏感  
@@ -23,7 +23,7 @@ soft-margin SVM (軟邊界):現實資料多半不能完美線性分，會有噪�
 也因此大多數訓練過程都選用軟邊界對超過的範圍做逞罰。  
 
 
-## 2.Soft-margin SVM（允許誤差/離群點)
+## 3.Soft-margin SVM（允許誤差/離群點)
 加入鬆弛變數與懲罰係數  
 <img width="406" height="101" alt="image" src="https://github.com/user-attachments/assets/0b7c36e5-facc-4bac-af61-5d37f1293798" />  
 PS:  
@@ -53,4 +53,7 @@ PS:
 所以SVM最後其實只是一個二次式求解問題，整理後如下列方程式:  
 <img width="715" height="408" alt="image" src="https://github.com/user-attachments/assets/914b2d57-2846-423d-960a-a815f5423ac4" />
 
-
+# MLP推導 
+## 機器學習- 神經網路(多層感知機 Multilayer perceptron, MLP)  
+多層感知機是一種前向傳遞類神經網路，至少包含三層結構(輸入層、隱藏層和輸出層)，並且利用到「倒傳遞」的技術達到學習(model learning)的監督式學習，以上是傳統的定義。現在深度學習的發展，其實MLP是深度神經網路(deep neural network, DNN)的一種special case，概念基本上一樣  
+<img width="664" height="442" alt="image" src="https://github.com/user-attachments/assets/965be09d-f6ca-4ce2-91bb-96edc2290c54" />
