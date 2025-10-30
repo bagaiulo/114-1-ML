@@ -54,6 +54,15 @@ PS:
 <img width="715" height="408" alt="image" src="https://github.com/user-attachments/assets/914b2d57-2846-423d-960a-a815f5423ac4" />
 
 # MLP推導 
-## 機器學習- 神經網路(多層感知機 Multilayer perceptron, MLP)  
+## 1.機器學習- 神經網路(多層感知機 Multilayer perceptron, MLP)  
 多層感知機是一種前向傳遞類神經網路，至少包含三層結構(輸入層、隱藏層和輸出層)，並且利用到「倒傳遞」的技術達到學習(model learning)的監督式學習，以上是傳統的定義。現在深度學習的發展，其實MLP是深度神經網路(deep neural network, DNN)的一種special case，概念基本上一樣  
-<img width="664" height="442" alt="image" src="https://github.com/user-attachments/assets/965be09d-f6ca-4ce2-91bb-96edc2290c54" />
+<img width="664" height="442" alt="image" src="https://github.com/user-attachments/assets/965be09d-f6ca-4ce2-91bb-96edc2290c54" />  
+假設有個MLP的結構，共有n筆樣本，每個樣本對應m個輸出值。隱藏層只有一層設定為p個hidden node  
+<img width="503" height="84" alt="image" src="https://github.com/user-attachments/assets/f12aac68-1985-42ea-8b5b-6006d8c4a39b" />  
+## 2.前向傳遞 (Forward propagation)  
+輸入層到隱藏層  
+<img width="694" height="293" alt="image" src="https://github.com/user-attachments/assets/e888dc8a-7915-44ab-a721-73b03cd34bb6" />  
+輸入層到隱藏層的值為sk,k=1,…,p，為輸入訊號的加權線性和(vik為第i個輸入到第k個hidden node的權重)  
+<img width="181" height="115" alt="image" src="https://github.com/user-attachments/assets/712aea50-3c5a-47c5-b241-9cbd0956a846" />  
+經過 非線性轉換/激活函數(activation function，f1)後，得到hidden node的輸出hk  
+<img width="195" height="70" alt="image" src="https://github.com/user-attachments/assets/c09338b7-a3d8-48c2-b4c8-397bc83a9971" />  
