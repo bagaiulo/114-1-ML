@@ -66,3 +66,10 @@ PS:
 <img width="181" height="115" alt="image" src="https://github.com/user-attachments/assets/712aea50-3c5a-47c5-b241-9cbd0956a846" />  
 經過 非線性轉換/激活函數(activation function，f1)後，得到hidden node的輸出hk  
 <img width="195" height="70" alt="image" src="https://github.com/user-attachments/assets/c09338b7-a3d8-48c2-b4c8-397bc83a9971" />  
+隱藏層到輸出層  
+<img width="718" height="304" alt="image" src="https://github.com/user-attachments/assets/1cc563eb-11d4-43e5-886d-7f53c8cc4379" />  
+隱藏層到輸出層的值為zj,j=1,…,m，為hidden node輸出的加權線性和(wkj為第k個hidden node輸出到第j個輸出值的權重  
+<img width="408" height="198" alt="image" src="https://github.com/user-attachments/assets/d251dc13-6291-4421-8f80-d6cf7c5ee566" />  
+經過 非線性轉換/激活函數(activation function，f2)後，得到推估的輸出值y^j  
+
+
